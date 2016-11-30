@@ -1,0 +1,25 @@
+.box {
+    width:200px;
+    height: 200px;
+    border:2px solid black;
+}
+
+.yellow{
+background-color:yellow;
+position:
+}
+
+.orange {
+background-color:darkorange;
+position:fixed;
+bottom:10px;
+left:200px;
+}
+
+.blue {
+background-color:darkblue;
+}
+
+.green {
+background-color:green;
+}
