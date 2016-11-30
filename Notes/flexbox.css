@@ -1,0 +1,33 @@
+#boxes {
+    margin-top:100px;
+    border:2px black;
+    padding:20px;
+    background-color:#ccc;
+    justify-content:space-between;
+
+/* make this a flexbox */
+    display:flex;
+    flex-direction:row; /* or column */
+}
+
+.box {
+    width:200px;
+    height: 200px;
+    border:2px solid black;
+}
+
+.yellow{
+background-color:yellow;
+}
+
+.orange {
+background-color:#f66733;
+}
+
+.blue {
+background-color:darkblue;
+}
+
+.green {
+background-color:green;
+}
