@@ -1,20 +1,74 @@
-body {
-    border:3px solid cornflowerblue;
+form {
+    border:3px solid #e5efff;
     border-radius:5px;
+    background-color:#e5efff;
+    color:#bdbfc1;
+    padding:5px;
+    font-weight:bold;
+    font-family:sans-serif;
+    font-size:1em;
 }
 
-.one ul li {
-    display:inline-block;
+.one {
+    display:flex;
+    justify-content:center;
 }
 
-.two ul li {
-    display:inline-block;
+ #comp {
+     border-top-right-radius:5px;
+ }
+
+ #name {
+     border-top-left-radius:5px;
+ }
+
+.two {
+    display:flex;
+    justify-content:center;
 }
 
-.three ul li {
-    display:inline-block;
+.three {
+    display:flex;
+    justify-content:center;
 }
 
-.four ul li {
-    display:inline-block;
+
+input[type=text] {
+    background-color:white;
+    border:none;
+}
+
+select { /* this is the hours picker style */
+    border:none;
+    width:70%;
+}
+
+input[type=submit] {
+    background-color:#4CAF50;
+    color:white;
+    border:none;
+    padding:10px 100px 10px 100px;
+    border-radius:5px;
+    display:relative;
+    margin-left:600px;
+    font-size:1.3em;
+}
+
+input[type=submit]:hover {
+    background-color:#45a049;
+}
+
+#submit {
+    border:1px solid #bdbfc1;
+    background-color:white;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    padding:20px;
+}
+
+div {
+    border:1px solid #bdbfc1;
+    background-color:white;
+    padding:20px;
+    width:100%;
 }
